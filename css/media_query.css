@@ -1,0 +1,567 @@
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+
+
+
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+    	
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+
+
+	    .slides h1,
+	    .slides h2 {
+	        font-size: 18px !important;
+	    }
+	    .slides p {
+	        font-size: 14px !important;
+	    }
+
+        .slide1-box1,
+        .slide1-box2,
+        .slide1-box3,
+        .slide1-box4,
+        .slide1-box5 {
+            height: inherit;
+            width: inherit;
+            background: inherit;
+            padding: 0;
+            font-size: 12px !important;
+            display: inline-block;
+            width: 30%;
+        }
+        .slide1-wrapper img {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 50px;
+        }
+	    .slide_2 .quote-title {
+	        padding-left: 0;
+	        background: inherit;
+	    }
+
+	    .slide_2 .border-box {
+	        padding: 30px;
+	    }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+    	.slide_4 .pos_img {
+    		bottom: 0;
+    	}
+		.slide_2.mestercard .container {
+			margin-top: 40px;
+		}
+		.slide_4 .pos_img{
+		    position: relative;
+		}
+	
+		.slide1-box1,
+		.slide1-box2,
+		.slide1-box3,
+		.slide1-box4,
+		.slide1-box5 {
+		    height: inherit;
+		    width: inherit;
+		    background: inherit;
+		    padding: 0;
+		    font-size: 12px !important;
+		    display: inline-block;
+		    width: 30%;
+		}
+		.slide1-wrapper img {
+		    margin-top: 10px;
+		    margin-bottom: 10px;
+		    width: 50px;
+		}
+		.slide_1 .container {
+    		margin-top: 70px;
+    	}
+        .slide_2 .mc_quote{
+            margin-top:70px;
+            background:rgba(255, 255, 255, 0.6);
+            border:2px solid #fff;
+            padding:20px;
+            min-height: auto;
+        }
+        .slide_2 .mc_quote h2 small{
+            margin-left:0;
+        }
+	    .slide_3 h1,
+	    .slide_4 h1,
+	    .slide_5 h1{
+	        margin-top: 140px;
+	        margin-bottom: 10px;
+	    }
+	    .slides .mt_165 {
+	        margin-top: 140px;
+	    }
+	    .slide_2.mastercard .container,
+	    .fix_it .slide_2.mastercard .container {
+	        margin-top: 70px;
+	    }
+	    .slide_3 .mt-80 {
+    		margin-top: 0;
+    	}
+
+        .news_list article.open .news-content,
+        .news_list article.open .news-img{
+            width:100%;
+            margin:0 0 10px;
+            padding:0;
+
+        }
+        .left-white-border {
+        	padding: 0;
+        	border: 0;
+        }
+
+        .zendcart img {
+        	max-width: 100%; 
+        }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+		.slide_1 h3 {
+		    font-size: 13px;
+		}
+    	.btn-lg {
+    		min-width: inherit;
+    	}
+    	.slide_2 .border-box {
+	        margin-top: 100px;
+	    }
+    	.slides .mt_165 {
+	        margin-top: 60px;
+	    }
+        .slide_00 .main_title{
+            margin-top:70px;
+            line-height:110%;
+        }
+	    .slide_3 h1,
+	    .slide_4 h1,
+	    .slide_5 h1{
+	        margin-top: 70px;
+	        margin-bottom: 10px;
+	    }
+		.slide_6 h1{
+			margin-top: 0px;
+		}
+	    .slide_0 .how-it-works-link {
+	        padding: 42px;
+	        margin-top: 60px;
+	        display: block;
+	        color: #fff;
+	    }
+		.main_slider  .slider_thumbs a {
+			font-size: 14px;
+			padding: 5px 3px;
+		}
+		.slides .mb_30 {
+			margin-bottom: 10px;
+		}
+		.einstein-quote {
+			font-size: 40px !important;
+		}
+		.xs_mt_30 {
+			margin-top: 30px;
+		}
+	    .main_slider  .slides .item {
+	        min-height: 100vh;
+	        max-height: 100vh;
+	    }
+		.slide_4 .mt_30 {
+			margin-top: 10px;
+		}
+ 		.platforms h1 {
+	    	font-size: 36px; 
+	    	font-weight: 300; 
+	    }
+
+	    /* ==========================================================================
+	    	#Taxi page
+	    ========================================================================== */
+	    .section-taxi-feature-inner { padding: 10px 0; }
+    	.section-taxi-feature-image {
+    		min-width: 1px; 
+    		padding: 0 10px; 
+    		
+    	}
+    	.section-taxi-head .section-taxi-title { font-size: 24px; }
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+    }
+
+    @media only screen and (max-width: 1199px) {
+    	/* ==========================================================================
+    		#Taxi page
+    	========================================================================== */
+        .section-taxi-head { padding: 0 0 20px; }
+        .section-taxi-gallery-box { height: 212px; }
+        .section-taxi-gallery-box .section-taxi-title { font-size: 24px; }
+        .section-taxi-feature-content { padding-right: 15px; }
+        .section-taxi-main .section-taxi-image img {
+            max-width: 100%; 
+            margin: 0; 
+            height: auto; 
+        }
+        /* ==========================================================================
+    		#Mobile Аpp page
+    	========================================================================== */
+        .section-mobile-app-main .section-mobile-app-image img {
+            max-width: 100%; 
+            margin: 0; 
+            height: auto; 
+        }
+        .section-taxi-gallery-article { min-height: 228px; }
+        .section-taxi-feature-inner { padding: 15px 0; }
+        .section-taxi-feature-content p:last-of-type { margin-bottom: 0; }
+        .form-taxi-subscribe .form-control { width: 410px; }
+
+        .fix_el .section-taxi-gallery-box .section-taxi-title { font-size: 24px; }
+        .fix_el .section-taxi-gallery-article { min-height: 240px; }
+        .fix_el .section-taxi-gallery-article .section-taxi-title { font-size: 20px; }
+
+        /* ==========================================================================
+            #link_boxes
+        ========================================================================== */
+        .box_link .img { min-height: 291px; }
+        .fix_sv .box_link .img .h3 { top: 10px; }
+
+        /* ==========================================================================
+            #Home page slider
+        ========================================================================== */
+        .fix_sv .slide_6 p.mt_40 { margin-top: 20px; }
+        .fix_sv .slide_4 .main-title { margin-bottom: 10px; }
+        .fix_sv .slide_4 p { margin-bottom: 20px; }
+        .fix_sv .slide_4 p.mt_30 { margin-top: 10px; }
+        .fix_nl .slide_7 .main-title,
+        .fix_nl .slide_6 .main-title,
+        .fix_nl .slide_5 .main-title { font-size: 42px; }
+        .fix_nl .slide_5 .main-title { margin-top: 110px; }
+    }
+    @media only screen and (max-width: 991px) {
+        /* ==========================================================================
+            #Header
+        ========================================================================== */
+        .fix_sv .tagline { display: none; }
+
+    	/* ==========================================================================
+    		#Taxi page
+    	========================================================================== */
+    	.section-taxi { padding: 30px 0; }
+        .section-taxi.pb_0 { padding-bottom: 0; }
+    	.section-taxi-head .section-taxi-title {
+    		margin: 0; 
+    		padding-bottom: 10px; 
+    	}
+    	.section-taxi-gallery-box { height: 158px; }
+    	.section-taxi-gallery-box { padding: 15px; }
+    	.section-taxi-gallery-box .section-taxi-title {
+    		font-size: 18px; 
+    		font-weight: 400; 
+    	}
+    	.section-taxi-feature-inner { padding: 20px 0; }
+    	.section-taxi-article { padding: 0; }
+    	.section-taxi-article p { padding: 0 0 10px; }
+        .section-taxi-article .section-taxi-title {
+            padding-bottom: 10px; 
+            font-size: 24px; 
+            line-height: 1.3; 
+            font-weight: 400; 
+        }
+        .section-taxi-gallery-article {
+            min-height: 1px; 
+            padding-left: 0; 
+        }
+        .section-taxi-gallery-article .section-taxi-title { margin-bottom: 5px; }
+        .form-taxi-subscribe .form-control { width: 380px; }
+
+        .fix_el .section-taxi-gallery-box .section-taxi-title { font-size: 18px; }
+        .fix_el .section-taxi-head .section-taxi-title { font-size: 20px; }
+
+        /* ==========================================================================
+            #link_boxes
+        ========================================================================== */
+        .box_link .img { min-height: 218px; }
+        .fix_sv .box_link .img .h3 {
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+        /* ==========================================================================
+            #registration
+        ========================================================================== */
+        .fix_sv .registration .btn-sm,
+        .fix_nl .registration .btn-sm { min-width: 90px; }
+    }
+    @media only screen and (max-width: 767px) {
+        /* ==========================================================================
+            #Scroll top button
+        ========================================================================== */
+        .scroll-top { display: none; }
+
+        /* ==========================================================================
+            #Header
+        ========================================================================== */
+        #header #top_nav,
+        .has_slider .scrolled #top_nav{
+            padding: 0;
+        }
+        #header .navbar-header { padding: 10px 0; }
+        .navbar-default .navbar-toggle {
+            margin-top: 0;
+            margin-bottom: 0;
+            border-color: #019bf3;
+            color: #019bf3;
+        }
+        .navbar-default .navbar-toggle:hover,
+        .navbar-default .navbar-toggle:focus { background: #019bf3; }
+        .navbar-default .navbar-toggle .icon-bar { background: #019bf3; }
+        .navbar-default .navbar-toggle:hover .icon-bar,
+        .navbar-default .navbar-toggle:focus .icon-bar { background: #fff; }
+        #header .logo,
+        .has_slider #header.scrolled .logo {
+            width: 140px;
+            height: 32px;
+            margin-top: 0;
+            -webkit-background-size: 137.6px 32px;
+            background-size: 137.6px 32px;
+        }
+
+        /* ==========================================================================
+            #Footer
+        ========================================================================== */
+        .footer-actions { text-align: left; }
+        .footer-actions .btn {
+            display: inline-block;
+            float: none !important;
+            margin: 10px 5px;
+            vertical-align: top;
+        }
+
+        /* ==========================================================================
+            #Taxi page
+        ========================================================================== */
+        .section-taxi-gallery { text-align: center; }
+        .section-taxi-gallery-box {
+            height: auto; 
+            padding: 0; 
+            border: 0; 
+            text-align: center; 
+        }
+        .section-taxi-gallery .img-responsive {
+            display: inline-block; 
+            margin: 10px 5px; 
+        }
+
+        .section-taxi-features .section-taxi-feature {
+            width: 100%; 
+            padding: 15px 0; 
+        }
+        .section-taxi-feature-inner { min-height: 1px; }
+
+        .section-taxi-main .section-taxi-image {
+            position: static; 
+            padding-top: 10px; 
+        }
+        .list-ticks li {
+            padding-left: 25px; 
+            text-align: left; 
+        }
+        .form-taxi-subscribe .form-control { width: 100%; }
+        .form-taxi-content,
+        .form-taxi-actions { padding: 0; }
+
+        /* ==========================================================================
+            #news_list
+        ========================================================================== */
+        .news_list article .news-img {
+            width: 30%; 
+            padding-right: 15px; 
+        }
+        .news_list article .news-content { width: 70%; }
+        
+        /* ==========================================================================
+            #Mobile App page
+        ========================================================================== */
+        .section-mobile-app-main .section-mobile-app-image {
+            position: static; 
+            padding-top: 10px; 
+        }
+        .section-mobile-app-head {
+            padding: 0 0 40px;
+        }
+        .section-mobile-app-mypos-quote {
+            font-size: 32px;
+        }
+        .section-mobile-app-article-text-right {
+            padding-left: 0;
+        }
+        /* ==========================================================================
+            #Mobile App page
+        ========================================================================== */
+        .section-mobile-app { padding-bottom: 0; }
+        .slider-phone {
+            overflow: hidden;
+            height: 520px;
+            margin: 0 auto;
+        }
+        .slide_inner.mobile-app .main-title {
+            margin-top: 240px;
+        }
+        .slide_inner,
+        .main_slider .slides .item {
+            -webkit-transition: all .3s ease-in-out;
+            -moz-transition: all .3s ease-in-out;
+            -ms-transition: all .3s ease-in-out;
+            -o-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
+        }
+
+        .fix_nl .main_slider .slider_thumbs a {
+            padding: 15px 10px;
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+        /* ==========================================================================
+            #link_boxes
+        ========================================================================== */
+        .box_link .img { min-height: 1px; }
+        .fix_sv .box_link .img .h3 {
+            top: 20px;
+            font-size: 24px;
+            font-weight: 300;
+        }
+
+        /* ==========================================================================
+            #Main slider
+        ========================================================================== */
+        .fix_sv .main_slider .slider_thumbs a {
+            font-size: 14px;
+            font-weight: 300;
+        }
+
+        .fix_sv .slide_5 .btn {
+            padding-right: 15px;
+            padding-left: 15px;
+            font-size: 16px;
+        }
+
+        /* ==========================================================================
+            #registration
+        ========================================================================== */
+        .fix_sv .registration .chosen-container,
+        .fix_sv .registration .chosen-drop,
+        .fix_nl .registration .chosen-container,
+        .fix_nl .registration .chosen-drop { max-width: 100%; }
+        .fix_sv .registration .chosen-drop,
+        .fix_nl .registration .chosen-drop { min-width: 100%; }
+        .fix_sv .registration .btn-sm,
+        .fix_nl .registration .btn-sm { min-width: 70px; }
+    }
+    @media only screen and (max-width: 480px) {
+        /* ==========================================================================
+            #news_list
+        ========================================================================== */
+        .news_list article .news-img {
+            width: 100%; 
+            padding-right: 0; 
+            padding-bottom: 10px; 
+        }
+        .news_list article .news-content { width: 100%; }
+        .news_list article h2 {
+            font-size: 24px; 
+            font-weight: 400; 
+        }
+        .slider-phone { height: 460px; }
+
+        .fix_nl .main_slider .thumbs-holder { display: none; }
+        .fix_nl .slide_5 .btn {
+            padding-right: 15px;
+            padding-left: 15px;
+            font-size: 14px;
+            font-weight: 500;
+            
+        }
+    }
+    @media only screen and (max-width: 380px) {
+        /* ==========================================================================
+            #slider-phone
+        ========================================================================== */
+        .slider-phone .slider-clip,
+        .slider-phone .bx-viewport { overflow: visible !important; }
+        .slider-phone .slider-clip { top: 62px; }
+
+        /* ==========================================================================
+            #Main slider
+        ========================================================================== */
+        .fix_sv .main_slider .slider_thumbs a { font-size: 12px; }
+
+        /* ==========================================================================
+            #box_link
+        ========================================================================== */
+        .fix_sv .box_link .img .h3 {
+            top: 15px;
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+        /* ==========================================================================
+            #green-bg
+        ========================================================================== */
+        .fix_sv .green-bg .btn-lg { font-size: 24px; }
+
+        /* ==========================================================================
+            #Masonry features
+        ========================================================================== */
+        .fix_sv .masonry .m_item .h3 { word-wrap: break-word; }
+
+        /* ==========================================================================
+            #anchor-faq
+        ========================================================================== */
+        .fix_sv .accordion .acc_content { word-wrap: break-word; }
+    }
