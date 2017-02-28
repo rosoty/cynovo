@@ -698,18 +698,18 @@ nav.affix .navbar-nav {
 ===================================*/
 .slide_00 {
     color: #fff;
-    background: transparent url("../images/Banner2.png") no-repeat center bottom;
+    background: transparent url("../img/Banner5.jpg") no-repeat center bottom;
     background-size: cover;
 }
 
 .slide_11 {
     color: #fff;
-    background: transparent url("../images/Banner1.png") no-repeat center bottom;
+    background: transparent url("../img/banner/flooz1.jpg") no-repeat center bottom;
     background-size: cover;
 }
 .slide_22 {
     color: #fff;
-    background: transparent url("../images/Banner3.png") no-repeat center bottom;
+    background: transparent url("../img/banner/flooz2.jpg") no-repeat center bottom;
     background-size: cover;
 }
 
